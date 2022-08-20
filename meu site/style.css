@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+*{ padding: 0px;
+    margin: 0px}
+
+body{ margin: auto;
+    background-color: rgba(134, 126, 3, 0.363);
+    font: 1em; color: rgb(2, 2, 2);
+    
+    
+
+}
+
+header {
+    background-color:  rgba(13, 110, 143, 0.562);
+    text-align: center;
+
+
+    padding: 10px;
+}
+
+header > h1 { color: aliceblue;
+    font-size: 2em;
+    padding: 20px;
+
+}
+
+header > p {
+    color: aliceblue;
+
+}
+
+nav{
+    text-align: left;
+    background-color:  rgba(9, 79, 102, 0.76);
+    margin: auto;
+    padding: 10px;
+}
+nav > a {
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: left;
+    font: 1em, white;
+    
+}
+
+main {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+    min-width: 320px;
+    background-color: aliceblue; 
+    margin-bottom: 20px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center;
+} 
+
+div{
+    margin-top: 20px;
+    margin-bottom:20px;
+    
+}
+
+div.video {
+    background-color:  rgba(9, 79, 102, 0.76);
+    margin: 0px -20px 30px -20px;
+    padding-bottom: 63%;
+    position: relative;
+    
+   
+}
+
+div.video > iframe {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   width: 90%;
+   height: 90%;
+   
+}
+
+footer{
+    background-color:  rgba(9, 79, 102, 0.76);
+}
+
+
+img{
+    width: 100%;
+}
+
+#bugd {
+    max-width: 350px;
+}
+
+a:visited { color: rgb(255, 255, 255);}
+a:active {color:white ; }
+a:hover { 
+    color: rgba(9, 79, 102, 0.76); 
+    background-color: aliceblue;   
+}
+
+main p {
+    text-align: justify;
+}
+
+aside p {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+h3 {
+    background-color:  rgba(9, 79, 102, 0.76);
+    padding-left: 10px;
+    padding-right: 10px;
+    margin:auto;
+}
+
+aside{
+    
+    background-color:  rgba(13, 110, 143, 0.562);
+    border-radius: 8px
+}
+
+aside > ul { 
+
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    columns: 2;
+    text-align: left;
+    
+
+}
+
+aside > ul > li {
+    margin-top: 2px;
+}
